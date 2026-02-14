@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Меньшиков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2675575).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
