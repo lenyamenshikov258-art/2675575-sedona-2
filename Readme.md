@@ -2,7 +2,7 @@
 
 * Студент: [Алексей Меньшиков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2675575).
 * Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
-
+* Сайт: [Мой проект Седона] (https://lenyamenshikov258-art.github.io/2675575-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
