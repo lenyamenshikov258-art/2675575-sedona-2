@@ -74,9 +74,30 @@
                   <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
               Апартаменты
                 </label>
-        </fieldset>
+            </fieldset>
+            </form>
+            <section class="filter">
+  <h2 class="filter-title">Фильтр</h2>
+  <form class="filter-form" action="#" method="get">
+    <fieldset class="filter-group">
+      <legend class="filter-group-title">Цена за сутки, ₽:</legend>
+      <div class="price-range">
+        <div class="price-inputs">
+          <label for="min-price" class="visually-hidden">от</label>
+          <input type="number" id="min-price" name="min_price" placeholder="от" min="0" max="9000" value="0">
+          <label for="max-price" class="visually-hidden">до</label>
+          <input type="number" id="max-price" name="max_price" placeholder="до" min="0" max="9000" value="9000">
+        </div>
+      </div>
+    </fieldset>
+    <button type="submit" class="button filter-submit">Применить</button>
+
+  </form>
+</section>
+            </section>
+                <section  class="filter">
+                  <h2 class="visually-hidden">Фильтр товаров</h2>
           <button class="button" type="submit">Показать</button>
-        </form>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
           <option value="cheap">Сначала дешёвое</option>
@@ -90,31 +111,28 @@
         </a>
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
-            <b class="product-card-title">Amara Resort & Spa</b>
+            <div class="product-card-title">Amara Resort & Spa</div>
           </a>
           <b class="product-card-price">от 4000 ₽</b>
           <a class="product-card-button button" href="#">Купить</a>
         </div>
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
-            <b class="product-card-title">Villas at Poco Diablo</b>
+            <div class="product-card-title">Villas at Poco Diablo</div>
           </a>
           <b class="product-card-price">от 5000 ₽</b>
           <a class="product-card-button button" href="#">Купить</a>
         </div>
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
-            <b class="product-card-title">Desert Quail Inn</b>
+
+            <div class="product-card-title">Desert Quail Inn</div>
           </a>
           <b class="product-card-price">от 2500 ₽</b>
           <a class="product-card-button button" href="#">Купить</a>
         </div>
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
             <b class="product-card-title">GreenTree Inn</b>
           </a>
           <b class="product-card-price">от 1500 ₽</b>
@@ -161,33 +179,31 @@
         </button>
       </form>
     </section>
-    <section class="footer-social">
+    <footer class="footer-social">
+      <ul class="footer-social-list"></ul>
       <h2 class="page-footer-title">Давайте дружить</h2>
-      <ul class="footer-social-list">
-        <li class="footer-social-item">
+        <div class="footer-social-item">
           <a class="button" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Youtube</span>
           </a>
-        </li>
-        <li class="footer-social-item">
+        </div>
+        <div class="footer-social-item">
           <a class="button" href="https://vk.com/htmlacadem">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
-        </li>
-        <li class="footer-social-item">
+        </div>
+        <div class="footer-social-item">
           <a class="button" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграмм</span>
           </a>
-        </li>
-      </ul>
-      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-    <footer class="page-footer">
-    <section class="footer-contacts">
-      <h2 class="visually-hidden">Контакты</h2>
-
+        </div>
+    <address class="page-footer">
+    <div class="footer-contacts">
+      <span class="visually-hidden">Контакты</span>
         <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+    </div>
       </address>
-      </section>
   </footer>
   </body>
 </html>
